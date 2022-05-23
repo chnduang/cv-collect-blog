@@ -1,0 +1,23 @@
+{
+  "name": "lerna-blog",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^4.0.0",
+    "vuepress": "^1.9.7",
+    "@vuepress/plugin-back-to-top": "^1.9.7",
+    "@vuepress/plugin-medium-zoom": "^1.9.7",
+    "vuepress-auto-sider-utils": "^0.0.2",
+    "vuepress-plugin-code-copy": "^1.0.6",
+    "vuepress-plugin-right-anchor": "^0.5.5"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:react": "lerna exec --scope react -- vuepress dev docs --open",
+    "dev:link": "lerna exec --scope link -- vuepress dev docs --open",
+    "build:react": "lerna exec --scope react -- vuepress build docs",
+    "build:link": "lerna exec --scope link -- vuepress build docs",
+    "deploy": "bash deploy.sh"
+  }
+}
