@@ -32,8 +32,5 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: "npm"
-
-    steps:
-    - name: 下载依赖
-    - run: npm cache verify
-    - run: yarn # 执行的命令
+      - run: npm cache verify
+      - run: yarn # 执行的命令
