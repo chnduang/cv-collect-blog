@@ -4,7 +4,7 @@ on:
   push:
     branches: [master]
     paths:
-      - "link/**"
+      - "packages/link/**"
 
 jobs:
   build:
