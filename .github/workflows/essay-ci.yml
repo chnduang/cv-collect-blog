@@ -1,0 +1,25 @@
+name: essay-blog-ci
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - "packages/essay/**"
+
+jobs:
+  call-workflow-install:
+    uses: ./.github/workflows/reusable.yml
+    with:
+      username: duang
+  build:
+    needs: call-workflow-install
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: yarn
+      - run: yarn deploy
+        env: # 设置环境变量
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }} # toKen私密变量
+          GITHUB_CNAME: essay.qdzhou.cn # 自定义域名
+          GITHUB_URL: essay # github地址
+          PACKAGE_NAME: essay # packages/名称
