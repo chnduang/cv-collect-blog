@@ -13,7 +13,6 @@ jobs:
       username: duang
   build:
     needs: call-workflow-install
-    runs-on: ubuntu-latest
     steps:
       - run: yarn deploy
         env: # 设置环境变量
