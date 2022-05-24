@@ -12,6 +12,7 @@ jobs:
     with:
       username: duang
   build:
+    needs: call-workflow-install
     runs-on: ubuntu-latest
     steps:
       - run: yarn deploy
