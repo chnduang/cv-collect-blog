@@ -13,6 +13,7 @@ jobs:
       username: duang
   build:
     needs: call-workflow-install
+    runs-on: ubuntu-latest
     steps:
       - run: yarn # 执行的命令
       - run: yarn deploy
