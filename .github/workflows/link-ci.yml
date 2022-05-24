@@ -1,4 +1,4 @@
-name: link-ci
+name: link-blog-ci
 
 on:
   push:
