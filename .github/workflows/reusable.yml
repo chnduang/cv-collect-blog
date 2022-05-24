@@ -41,6 +41,6 @@ jobs:
       - run: npm cache verify
       - run: yarn # 执行的命令
       - name: workflow_call
-        uses: ./.github/workflows/link
+        uses: ./.github/workflows/link.yml
         with:
           username: ${{ inputs.username }}
