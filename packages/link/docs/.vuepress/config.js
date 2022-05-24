@@ -60,7 +60,7 @@ module.exports = {
   description: "优质链接",
   base,
   host: "localhost",
-  port: 9205,
+  port: 9206,
   head: [
     ["link", { rel: "icon", href: "/logo.png" }],
     ["link", { rel: "manifest", href: "/manifest.json" }],
