@@ -44,8 +44,15 @@ const base = "/";
 // },
 
 const nav = [
+  { text: "事件机制", link: "/events/" },
   { text: "Fiber", link: "/fiber/" },
   { text: "进阶", link: "/advanced/" },
+  { text: "Hooks", link: "/hooks/" },
+  { text: "源码解读", link: "/source-code/" },
+  { text: "性能优化", link: "/performance/" },
+  { text: "基础", link: "/base/" },
+  { text: "单元测试", link: "/jest/" },
+  // { text: "Home", link: "https://link.qdzhou.cn" },
 ];
 
 module.exports = {
@@ -53,7 +60,7 @@ module.exports = {
   description: "react相关知识归纳总结",
   base,
   host: "localhost",
-  port: 9201,
+  port: 9209,
   head: [
     ["link", { rel: "icon", href: "/logo.png" }],
     ["link", { rel: "manifest", href: "/manifest.json" }],

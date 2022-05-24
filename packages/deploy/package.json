@@ -1,0 +1,20 @@
+{
+  "name": "deploy",
+  "version": "0.0.1",
+  "description": "> TODO: description",
+  "author": "zhouqd <zhouqd1997@163.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "vuepress dev docs --open",
+    "build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/duangdong9/deploy.git"
+  },
+  "homepage": "https://deploy.qdzhou.cn"
+}

@@ -1,5 +1,5 @@
 {
-  "name": "lerna-blog",
+  "name": "cv-collect-blog",
   "private": true,
   "devDependencies": {
     "lerna": "^4.0.0",
@@ -14,10 +14,28 @@
     "packages/*"
   ],
   "scripts": {
-    "dev:react": "lerna exec --scope react -- vuepress dev docs --open",
+    "dev:algorithm": "lerna exec --scope algorithm -- vuepress dev docs --open",
+    "dev:collect": "lerna exec --scope collect -- vuepress dev docs --open",
+    "dev:deploy": "lerna exec --scope deploy -- vuepress dev docs --open",
+    "dev:engineering": "lerna exec --scope engineering -- vuepress dev docs --open",
+    "dev:essay": "lerna exec --scope essay -- vuepress dev docs --open",
+    "dev:note": "lerna exec --scope note -- vuepress dev docs --open",
+    "dev:qa": "lerna exec --scope qa -- vuepress dev docs --open",
     "dev:link": "lerna exec --scope link -- vuepress dev docs --open",
-    "build:react": "lerna exec --scope react -- vuepress build docs",
+    "dev:react": "lerna exec --scope react -- vuepress dev docs --open",
+    "build:algorithm": "lerna exec --scope algorithm -- vuepress build docs",
+    "build:collect": "lerna exec --scope collect -- vuepress build docs",
+    "build:deploy": "lerna exec --scope deploy -- vuepress build docs",
+    "build:engineering": "lerna exec --scope engineering -- vuepress build docs",
+    "build:essay": "lerna exec --scope essay -- vuepress build docs",
+    "build:note": "lerna exec --scope note -- vuepress build docs",
+    "build:qa": "lerna exec --scope qa -- vuepress build docs",
     "build:link": "lerna exec --scope link -- vuepress build docs",
+    "build:react": "lerna exec --scope react -- vuepress build docs",
     "deploy": "bash deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/duangdong9/cv-collect-blog.git"
   }
 }
