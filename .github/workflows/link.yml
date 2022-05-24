@@ -8,7 +8,7 @@ on:
 
 jobs:
   call-workflow-install:
-    uses: ./.github/workflows/reusable.yml@master
+    uses: ./.github/workflows/reusable.yml
     with:
       username: duang
   build:
