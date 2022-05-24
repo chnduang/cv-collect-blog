@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: /header.jpg
-heroText: duangdong的link测试16
+heroText: duangdong的link测试18
 tagline: 链接
 actionText: 快速上手 →
 actionLink: /guide/

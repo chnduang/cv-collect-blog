@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: /header.jpg
-heroText: duangdong的react
+heroText: duangdong的react-1
 tagline: 记录和总结react相关的文章
 actionText: 快速上手 →
 actionLink: /events/

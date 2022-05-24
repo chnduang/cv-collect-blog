@@ -1,4 +1,4 @@
-name: react
+name: react-blog-ci
 
 on:
   push:
@@ -7,10 +7,16 @@ on:
       - "packages/react/**"
 
 jobs:
+  call-workflow-install:
+    uses: ./.github/workflows/reusable.yml
+    with:
+      username: duang
   build:
-    needs: install
+    needs: call-workflow-install
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
+      - run: yarn
       - run: yarn deploy
         env: # 设置环境变量
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }} # toKen私密变量
