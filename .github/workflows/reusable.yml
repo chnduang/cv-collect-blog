@@ -1,9 +1,15 @@
 # This workflow will do a clean install of node dependencies, cache/restore them, build the source code and run tests across different versions of node
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
 
-name: blog-ci
+name: reusable-workflow-ci
 
 on:
+  workflow_call:
+    inputs:
+      username:
+        required: true
+        default: "duang"
+        type: string
   push:
     branches: [master]
 
@@ -34,3 +40,7 @@ jobs:
           cache: "npm"
       - run: npm cache verify
       - run: yarn # 执行的命令
+      - name: workflow_call
+        uses: ./.github/workflows/link
+        with:
+          username: ${{ inputs.username }}

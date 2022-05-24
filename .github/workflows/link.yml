@@ -7,6 +7,11 @@ on:
       - "packages/link/**"
 
 jobs:
+  call-workflow-install:
+    uses: ./.github/workflows/reusable.yml@master
+    with:
+      username: duang
+    secrets: inherit
   build:
     runs-on: ubuntu-latest
     steps:
