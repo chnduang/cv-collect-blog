@@ -8,10 +8,6 @@
   "directories": {
     "doc": "docs"
   },
-  "scripts": {
-    "dev": "vuepress dev docs --open",
-    "build": "vuepress build docs"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/duangdong9/algorithm.git"
