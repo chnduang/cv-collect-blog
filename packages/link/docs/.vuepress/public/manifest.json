@@ -1,8 +1,8 @@
 {
-    "name": "qd-blog",
-    "short_name": "qd-blog",
-    "start_url": "/index.html",
-    "display": "standalone",
-    "background_color": "#fff",
-    "theme_color": "#1890ff"
+  "name": "duang-blog",
+  "short_name": "duang-blog",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#fff",
+  "theme_color": "#1890ff"
 }
