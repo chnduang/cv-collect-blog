@@ -36,7 +36,7 @@ const nav = [
   },
   { text: "Leetcode", link: "/leetcode/" },
   { text: "算法题", link: "/leetcode-summary/" },
-  // { text: "Home", link: "https://link.qdzhou.cn" },
+  // { text: "Home", link: "https://link.aduang.cn" },
 ];
 
 module.exports = {

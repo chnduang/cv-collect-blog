@@ -52,7 +52,7 @@ const nav = [
   { text: "性能优化", link: "/performance/" },
   { text: "基础", link: "/base/" },
   { text: "单元测试", link: "/jest/" },
-  // { text: "Home", link: "https://link.qdzhou.cn" },
+  // { text: "Home", link: "https://link.aduang.cn" },
 ];
 
 module.exports = {

@@ -38,7 +38,7 @@ const nav = [
   { text: "集群", link: "/cluster/" },
   { text: "运维", link: "/linux/" },
   { text: "Linux相关", link: "/linux-shell/" },
-  { text: "Home", link: "https://link.qdzhou.cn" },
+  { text: "Home", link: "https://link.aduang.cn" },
 ];
 
 module.exports = {

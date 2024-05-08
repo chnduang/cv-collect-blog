@@ -41,7 +41,7 @@ const nav = [
     text: "微前端",
     link: "/micro-front/",
   },
-  { text: "Home", link: "https://link.qdzhou.cn" },
+  { text: "Home", link: "https://link.aduang.cn" },
 ];
 
 module.exports = {

@@ -58,7 +58,7 @@ const nav = [
     text: "QA",
     link: "/face-sutra/",
   },
-  { text: "Home", link: "https://link.qdzhou.cn" },
+  { text: "Home", link: "https://link.aduang.cn" },
 ];
 
 module.exports = {

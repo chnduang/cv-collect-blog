@@ -61,18 +61,18 @@ const base = "/";
 //   },
 //   { text: "工程化", link: "/engineering/" },
 //   { text: "Node", link: "/node/" },
-//   { text: "React", link: "https://react.qdzhou.cn" },
+//   { text: "React", link: "https://react.aduang.cn" },
 //   {
 //     text: "个人链接",
 //     ariaLabel: "个人链接",
 //     items: [
-//       { text: "随笔", link: "https://essay.qdzhou.cn", target: "_blank" },
-//       { text: "随笔", link: "https://qa.qdzhou.cn", target: "_blank" },
-//       { text: "博客", link: "http://qdzhou.cn/", target: "_blank" },
+//       { text: "随笔", link: "https://essay.aduang.cn", target: "_blank" },
+//       { text: "随笔", link: "https://qa.aduang.cn", target: "_blank" },
+//       { text: "博客", link: "http://aduang.cn/", target: "_blank" },
 //       { text: "语雀", link: "https://www.yuque.com/xdxmvy" },
 //       {
 //         text: "Github",
-//         link: "https://github.com/duangdong9/note",
+//         link: "https://github.com/chnduang/note",
 //         target: "_blank",
 //       },
 //     ],
@@ -108,7 +108,7 @@ const nav = [
     text: "工具方法",
     link: "/tools/",
   },
-  { text: "Home", link: "https://link.qdzhou.cn" },
+  { text: "Home", link: "https://link.aduang.cn" },
 ];
 
 module.exports = {

@@ -40,7 +40,7 @@ const nav = [
   { text: "部署", link: "/android/" },
   { text: "数据库", link: "/dataBase/" },
   { text: "Git", link: "/git/" },
-  { text: "Home", link: "https://link.qdzhou.cn" },
+  { text: "Home", link: "https://link.aduang.cn" },
 ];
 
 module.exports = {

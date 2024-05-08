@@ -64,7 +64,7 @@ const nav = [
   { text: "Angular", link: "/angular/" },
   { text: "小程序", link: "/mini-program/" },
   { text: "随笔", link: "/other/" },
-  { text: "Home", link: "https://link.qdzhou.cn/" },
+  { text: "Home", link: "https://link.aduang.cn/" },
 ];
 
 module.exports = {
