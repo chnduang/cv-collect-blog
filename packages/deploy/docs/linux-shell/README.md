@@ -1,7 +1,5 @@
 # 部署
 
-## 测试 ceshi
-
 - nginx
   - [前端运维](./nginx/前端运维.md)
 - docker
