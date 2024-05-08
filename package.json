@@ -32,7 +32,7 @@
     "build:qa": "lerna exec --scope qa -- vuepress build docs",
     "build:link": "lerna exec --scope link -- vuepress build docs",
     "build:react": "lerna exec --scope react -- vuepress build docs",
-    "deploy": "bash deploy.sh"
+    "deploy": "NODE_OPTIONS=--openssl-legacy-provider bash deploy.sh"
   },
   "repository": {
     "type": "git",
