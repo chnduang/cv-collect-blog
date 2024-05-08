@@ -39,4 +39,5 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: "npm"
       - run: npm cache verify
+      - run: yarn caniuse-lite@latest browserslist@latest --save-dev
       - run: yarn # 执行的命令

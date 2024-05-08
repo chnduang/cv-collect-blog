@@ -2,7 +2,7 @@
 home: true
 heroImage: /header.jpg
 heroText: duangdong的guide
-tagline: 链接
+tagline: 链接汇总
 actionText: 快速上手 →
 actionLink: /guide/
 features:
