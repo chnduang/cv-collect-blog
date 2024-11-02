@@ -146,14 +146,3 @@
 
 - [面试手写题](./10-手写题/面试手写题.md)
 
-
-## 20-other
-
-- [flat](./20-other/flat.md)
-
-- [setTimeout](./20-other/setTimeout.md)
-
-- [slice](./20-other/slice.md)
-
-- [symbol](./20-other/symbol.md)
-

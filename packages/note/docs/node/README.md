@@ -33,24 +33,3 @@
 
 - [端口占用](./4-Bug/端口占用.md)
 
-
-## 4-other
-
-- [Node进程管理模块PM2](./4-other/Node进程管理模块PM2.md)
-
-- [babel-nodemon](./4-other/babel-nodemon.md)
-
-- [jsencrypt](./4-other/jsencrypt.md)
-
-- [jsonwebtoken](./4-other/jsonwebtoken.md)
-
-- [nvm](./4-other/nvm.md)
-
-- [other](./4-other/other.md)
-
-- [passport](./4-other/passport.md)
-
-- [pm2](./4-other/pm2.md)
-
-- [浅析Node进程与线程](./4-other/浅析Node进程与线程.md)
-
