@@ -29,7 +29,7 @@ const directorySort = (arr, currentPath, parentName, rankIndex) => {
   const tempSortArr = sortArr.sort((a, b) => a[0] - b[0]);
   const resSortArr = tempSortArr.concat(noSortArr);
   // 生成 readme 文件
-  onReadmeFile(resSortArr, currentPath, parentName, rankIndex);
+  // onReadmeFile(resSortArr, currentPath, parentName, rankIndex);
   return [README_CODE, ...resSortArr];
 };
 

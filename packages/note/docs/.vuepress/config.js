@@ -85,6 +85,8 @@ const nav = [
   { text: "MDN", link: "/mdn/" },
   { text: "Node", link: "/node/" },
   { text: "JS进阶", link: "/advanced/" },
+  { text: "算法", link: "/algorithm/" },
+  { text: "工程化", link: "/deploy/" },
   { text: "Home", link: "https://link.aduang.cn" },
 ];
 
