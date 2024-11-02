@@ -1,32 +1,33 @@
-const { sidebar } = require("vuepress-auto-sider-utils");
+const { sidebar } = require("./siderbar");
+// const { sidebar } = require("vuepress-auto-sider-utils");
 
-const getBaiduTongji = () => {
-  return `
-  var _hmt = _hmt || [];
-  (function() {
-    var hm = document.createElement("script");
-    hm.src = "https://hm.baidu.com/hm.js?0088ce24040b03f2947322ab31d23414";
-    var s = document.getElementsByTagName("script")[0];
-    s.parentNode.insertBefore(hm, s);
-  })();
-  `;
-};
+// const getBaiduTongji = () => {
+//   return `
+//   var _hmt = _hmt || [];
+//   (function() {
+//     var hm = document.createElement("script");
+//     hm.src = "https://hm.baidu.com/hm.js?0088ce24040b03f2947322ab31d23414";
+//     var s = document.getElementsByTagName("script")[0];
+//     s.parentNode.insertBefore(hm, s);
+//   })();
+//   `;
+// };
 
-const getBaiduSpa = () => {
-  return `
-  var _hmt = _hmt || [];
-  _hmt.push(['_requirePlugin', 'UrlChangeTracker', {
-    shouldTrackUrlChange: function (newPath, oldPath) {
-      newPath = newPath.split('#')[0];
-      oldPath = oldPath.split('#')[0];
-      return newPath != oldPath;
-    }}
-  ]);
-  `;
-};
+// const getBaiduSpa = () => {
+//   return `
+//   var _hmt = _hmt || [];
+//   _hmt.push(['_requirePlugin', 'UrlChangeTracker', {
+//     shouldTrackUrlChange: function (newPath, oldPath) {
+//       newPath = newPath.split('#')[0];
+//       oldPath = oldPath.split('#')[0];
+//       return newPath != oldPath;
+//     }}
+//   ]);
+//   `;
+// };
 
-const baiduTongji = getBaiduTongji();
-const baiduSpa = getBaiduSpa();
+// const baiduTongji = getBaiduTongji();
+// const baiduSpa = getBaiduSpa();
 const base = "/";
 // const base = '/note/';
 // {
@@ -80,39 +81,15 @@ const base = "/";
 // ];
 
 const nav = [
-  { text: "Node", link: "/node/" },
-  {
-    text: "JS执行",
-    link: "/principle/",
-  },
-  {
-    text: "JS设计模式",
-    link: "/design-mode/",
-  },
-  {
-    text: "JS进阶",
-    link: "/advanced/",
-  },
-  {
-    text: "高阶函数",
-    link: "/advanced-function/",
-  },
-  { text: "TS", link: "/typescript/" },
-  { text: "八股文", link: "/eight-essay/" },
-  {
-    text: "手写实现",
-    link: "/hand-writing/",
-  },
+  { text: "React", link: "/react/" },
   { text: "MDN", link: "/mdn/" },
-  {
-    text: "工具方法",
-    link: "/tools/",
-  },
+  { text: "Node", link: "/node/" },
+  { text: "JS进阶", link: "/advanced/" },
   { text: "Home", link: "https://link.aduang.cn" },
 ];
 
 module.exports = {
-  title: "duangdong的note",
+  title: "note归纳",
   description: "前端相关知识归纳总结",
   base,
   host: "localhost",
@@ -124,11 +101,11 @@ module.exports = {
       "meta",
       {
         name: "keywords",
-        content: "qd-blog,node,vuepress,leetcode,algorithm",
+        content: "blog,react,node,js",
       },
     ],
-    ["script", {}, baiduTongji],
-    ["script", {}, baiduSpa],
+    // ["script", {}, baiduTongji],
+    // ["script", {}, baiduSpa],
   ],
   plugins: [
     ["@vuepress/medium-zoom", true],

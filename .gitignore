@@ -24,7 +24,5 @@ node_modules
 .idea
 .vscode
 
-# bit
-/components
-.bitmap
-.bit
+# temp
+temp
