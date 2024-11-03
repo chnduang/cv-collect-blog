@@ -1,8 +1,9 @@
-## 8-SSR
+# 目录
 
-- [eggjs-nextjs](./8-SSR/eggjs-nextjs.md)
 
-- [eggjs](./8-SSR/eggjs.md)
+- [eggjs-nextjs](./eggjs-nextjs.md)
 
-- [nextjs](./8-SSR/nextjs.md)
+- [eggjs](./eggjs.md)
+
+- [nextjs](./nextjs.md)
 

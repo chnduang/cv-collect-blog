@@ -1,6 +1,7 @@
 # 目录
 
-## 1-npm
+
+## npm
 
 - [npm-依赖管理中被忽略的那些细节](./1-npm/npm-依赖管理中被忽略的那些细节.md)
 
@@ -12,8 +13,7 @@
 
 - [解读package](./1-npm/解读package.md)
 
-
-## 1-webpack原理
+## webpack原理
 
 - [Webpack下的HMR机制原理](./1-webpack原理/Webpack下的HMR机制原理.md)
 
@@ -37,8 +37,7 @@
 
 - [webpack方方面面的核心原理总结](./1-webpack原理/webpack方方面面的核心原理总结.md)
 
-
-## 2-webpack
+## webpack
 
 - [Koa2中使用webpack进行打包压缩](./2-webpack/Koa2中使用webpack进行打包压缩.md)
 
@@ -72,8 +71,7 @@
 
 - [缩小文件搜索范围](./2-webpack/缩小文件搜索范围.md)
 
-
-## 3-babel
+## babel
 
 - [ESlint语法检查简单配置](./3-babel/ESlint语法检查简单配置.md)
 
@@ -81,41 +79,35 @@
 
 - [这次一定学会babel插件开发](./3-babel/这次一定学会babel插件开发.md)
 
-
-## 4-gulp
+## gulp
 
 - [gulp](./4-gulp/gulp.md)
 
 - [gulpfile-js](./4-gulp/gulpfile-js.md)
 
-
-## 4-vite
+## vite
 
 - [Vite特性和部分源码解析](./4-vite/Vite特性和部分源码解析.md)
 
 - [Vite的好与坏](./4-vite/Vite的好与坏.md)
 
-
-## 5-micro-front
+## micro-front
 
 - [微前端](./5-micro-front/微前端.md)
 
 - [微前端1](./5-micro-front/微前端1.md)
 
-
-## 6-cluster
+## cluster
 
 - [集群](./6-cluster/集群.md)
 
-
-## 6-deploy
+## deploy
 
 - [从零开启前端自动化部署之路Gitlab-ci](./6-deploy/从零开启前端自动化部署之路Gitlab-ci.md)
 
 - [大型复杂前端工程的优化方法](./6-deploy/大型复杂前端工程的优化方法.md)
 
-
-## 6-docker
+## docker
 
 - [NodeJs服务Docker镜像极致优化指北](./6-docker/NodeJs服务Docker镜像极致优化指北.md)
 
@@ -125,8 +117,7 @@
 
 - [前端运维](./6-docker/前端运维.md)
 
-
-## 8-linux
+## linux
 
 - [前端运维](./8-linux/前端运维.md)
 

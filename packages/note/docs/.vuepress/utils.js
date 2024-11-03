@@ -12,9 +12,18 @@ const CODES = {
   NAME_CODE,
 };
 
+const TOP_LIST = [README_CODE];
+
 const codeSplit = (str, code) => {
   return str.replace(code, CODES.REPLACE_CODE).split(CODES.REPLACE_CODE);
 };
 
+const getFileName = (str) => {
+  const [fileName] = str.split(".");
+  return fileName;
+};
+
 exports.codeSplit = codeSplit;
 exports.CODES = CODES;
+exports.TOP_LIST = TOP_LIST;
+exports.getFileName = getFileName;

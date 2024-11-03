@@ -1,6 +1,7 @@
 # 目录
 
-## 1-理念-react理念
+
+## 理念-react理念
 
 - [beginWork](./1-理念-react理念/beginWork.md)
 
@@ -16,8 +17,7 @@
 
 - [reconciler](./1-理念-react理念/reconciler.md)
 
-
-## 2-理念-源码结构
+## 理念-源码结构
 
 - [file](./2-理念-源码结构/file.md)
 
@@ -33,8 +33,7 @@
 
 - [summary](./2-理念-源码结构/summary.md)
 
-
-## 3-架构-render阶段
+## 架构-render阶段
 
 - [beginWork](./3-架构-render阶段/beginWork.md)
 
@@ -48,8 +47,7 @@
 
 - [reconciler](./3-架构-render阶段/reconciler.md)
 
-
-## 4-架构-commit阶段
+## 架构-commit阶段
 
 - [beforeMutation](./4-架构-commit阶段/beforeMutation.md)
 
@@ -59,8 +57,7 @@
 
 - [prepare](./4-架构-commit阶段/prepare.md)
 
-
-## 5-实现-diff
+## 实现-diff
 
 - [multi](./5-实现-diff/multi.md)
 
@@ -68,8 +65,7 @@
 
 - [prepare](./5-实现-diff/prepare.md)
 
-
-## 6-实现-状态更新
+## 实现-状态更新
 
 - [mental](./6-实现-状态更新/mental.md)
 
@@ -83,8 +79,7 @@
 
 - [update](./6-实现-状态更新/update.md)
 
-
-## 7-实现-hooks
+## 实现-hooks
 
 - [create](./7-实现-hooks/create.md)
 
@@ -100,8 +95,7 @@
 
 - [usestate](./7-实现-hooks/usestate.md)
 
-
-## 8-实现-concurrent
+## 实现-concurrent
 
 - [disrupt](./8-实现-concurrent/disrupt.md)
 

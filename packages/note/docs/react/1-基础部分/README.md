@@ -1,34 +1,35 @@
-## 1-基础部分
+# 目录
 
-- [React代码共享最佳实践方式](./1-基础部分/React代码共享最佳实践方式.md)
 
-- [React组件性能优化—function-component](./1-基础部分/React组件性能优化—function-component.md)
+- [React代码共享最佳实践方式](./React代码共享最佳实践方式.md)
 
-- [clean-react](./1-基础部分/clean-react.md)
+- [React组件性能优化—function-component](./React组件性能优化—function-component.md)
 
-- [eslint-plugin](./1-基础部分/eslint-plugin.md)
+- [clean-react](./clean-react.md)
 
-- [life](./1-基础部分/life.md)
+- [eslint-plugin](./eslint-plugin.md)
 
-- [mobx](./1-基础部分/mobx.md)
+- [life](./life.md)
 
-- [propType](./1-基础部分/propType.md)
+- [mobx](./mobx.md)
 
-- [question](./1-基础部分/question.md)
+- [propType](./propType.md)
 
-- [todo-list](./1-基础部分/todo-list.md)
+- [question](./question.md)
 
-- [修改端口](./1-基础部分/修改端口.md)
+- [todo-list](./todo-list.md)
 
-- [初学](./1-基础部分/初学.md)
+- [修改端口](./修改端口.md)
 
-- [初次运行的问题](./1-基础部分/初次运行的问题.md)
+- [初学](./初学.md)
 
-- [基础](./1-基础部分/基础.md)
+- [初次运行的问题](./初次运行的问题.md)
 
-- [如何使用React创建视频和动画](./1-基础部分/如何使用React创建视频和动画.md)
+- [基础](./基础.md)
 
-- [如何使用usemeo](./1-基础部分/如何使用usemeo.md)
+- [如何使用React创建视频和动画](./如何使用React创建视频和动画.md)
 
-- [提高React代码质量的方法](./1-基础部分/提高React代码质量的方法.md)
+- [如何使用usemeo](./如何使用usemeo.md)
+
+- [提高React代码质量的方法](./提高React代码质量的方法.md)
 

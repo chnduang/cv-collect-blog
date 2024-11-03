@@ -1,28 +1,29 @@
-## 5-fiber
+# 目录
 
-- [React-Fiber架构浅析](./5-fiber/React-Fiber架构浅析.md)
 
-- [ReactFiber是如何实现更新过程可控的](./5-fiber/ReactFiber是如何实现更新过程可控的.md)
+- [React-Fiber架构浅析](./React-Fiber架构浅析.md)
 
-- [React中的key有什么作用](./5-fiber/React中的key有什么作用.md)
+- [ReactFiber是如何实现更新过程可控的](./ReactFiber是如何实现更新过程可控的.md)
 
-- [React是如何创建-vdom和fiber-tree](./5-fiber/React是如何创建-vdom和fiber-tree.md)
+- [React中的key有什么作用](./React中的key有什么作用.md)
 
-- [RealDOM和VirtualDOM的区别](./5-fiber/RealDOM和VirtualDOM的区别.md)
+- [React是如何创建-vdom和fiber-tree](./React是如何创建-vdom和fiber-tree.md)
 
-- [diff](./5-fiber/diff.md)
+- [RealDOM和VirtualDOM的区别](./RealDOM和VirtualDOM的区别.md)
 
-- [react中key值得使用](./5-fiber/react中key值得使用.md)
+- [diff](./diff.md)
 
-- [为什么虚拟dom提升性能](./5-fiber/为什么虚拟dom提升性能.md)
+- [react中key值得使用](./react中key值得使用.md)
 
-- [从中断机制看ReactFiber技术](./5-fiber/从中断机制看ReactFiber技术.md)
+- [为什么虚拟dom提升性能](./为什么虚拟dom提升性能.md)
 
-- [六个问题让你更懂ReactFiber](./5-fiber/六个问题让你更懂ReactFiber.md)
+- [从中断机制看ReactFiber技术](./从中断机制看ReactFiber技术.md)
 
-- [深入分析虚拟dom的渲染原理和特性](./5-fiber/深入分析虚拟dom的渲染原理和特性.md)
+- [六个问题让你更懂ReactFiber](./六个问题让你更懂ReactFiber.md)
 
-- [理解其原理fiber](./5-fiber/理解其原理fiber.md)
+- [深入分析虚拟dom的渲染原理和特性](./深入分析虚拟dom的渲染原理和特性.md)
 
-- [说说ReactJsx转换成真实DOM过程](./5-fiber/说说ReactJsx转换成真实DOM过程.md)
+- [理解其原理fiber](./理解其原理fiber.md)
+
+- [说说ReactJsx转换成真实DOM过程](./说说ReactJsx转换成真实DOM过程.md)
 
