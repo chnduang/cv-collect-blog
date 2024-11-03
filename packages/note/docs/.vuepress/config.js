@@ -87,6 +87,7 @@ const nav = [
   { text: "JS进阶", link: "/advanced/" },
   { text: "算法", link: "/algorithm/" },
   { text: "工程化", link: "/deploy/" },
+  { text: "react源码解析", link: "/react-source/" },
   { text: "Home", link: "https://link.aduang.cn" },
 ];
 
