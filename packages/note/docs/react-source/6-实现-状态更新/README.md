@@ -1,14 +1,15 @@
-## 6-实现-状态更新
+# 目录
 
-- [mental](./6-实现-状态更新/mental.md)
 
-- [prepare](./6-实现-状态更新/prepare.md)
+- [mental](./mental.md)
 
-- [priority](./6-实现-状态更新/priority.md)
+- [prepare](./prepare.md)
 
-- [reactdom](./6-实现-状态更新/reactdom.md)
+- [priority](./priority.md)
 
-- [setstate](./6-实现-状态更新/setstate.md)
+- [reactdom](./reactdom.md)
 
-- [update](./6-实现-状态更新/update.md)
+- [setstate](./setstate.md)
+
+- [update](./update.md)
 

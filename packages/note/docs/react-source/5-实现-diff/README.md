@@ -1,8 +1,9 @@
-## 5-实现-diff
+# 目录
 
-- [multi](./5-实现-diff/multi.md)
 
-- [one](./5-实现-diff/one.md)
+- [multi](./multi.md)
 
-- [prepare](./5-实现-diff/prepare.md)
+- [one](./one.md)
+
+- [prepare](./prepare.md)
 

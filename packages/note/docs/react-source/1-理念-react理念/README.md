@@ -1,16 +1,17 @@
-## 1-理念-react理念
+# 目录
 
-- [beginWork](./1-理念-react理念/beginWork.md)
 
-- [completeWork](./1-理念-react理念/completeWork.md)
+- [beginWork](./beginWork.md)
 
-- [doubleBuffer](./1-理念-react理念/doubleBuffer.md)
+- [completeWork](./completeWork.md)
 
-- [fiber-mental](./1-理念-react理念/fiber-mental.md)
+- [doubleBuffer](./doubleBuffer.md)
 
-- [fiber](./1-理念-react理念/fiber.md)
+- [fiber-mental](./fiber-mental.md)
 
-- [react16架构](./1-理念-react理念/react16架构.md)
+- [fiber](./fiber.md)
 
-- [reconciler](./1-理念-react理念/reconciler.md)
+- [react16架构](./react16架构.md)
+
+- [reconciler](./reconciler.md)
 

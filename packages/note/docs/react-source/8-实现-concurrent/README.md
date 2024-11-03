@@ -1,10 +1,11 @@
-## 8-实现-concurrent
+# 目录
 
-- [disrupt](./8-实现-concurrent/disrupt.md)
 
-- [lane](./8-实现-concurrent/lane.md)
+- [disrupt](./disrupt.md)
 
-- [prepare](./8-实现-concurrent/prepare.md)
+- [lane](./lane.md)
 
-- [scheduler](./8-实现-concurrent/scheduler.md)
+- [prepare](./prepare.md)
+
+- [scheduler](./scheduler.md)
 

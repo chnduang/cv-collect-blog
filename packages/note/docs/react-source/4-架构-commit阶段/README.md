@@ -1,10 +1,11 @@
-## 4-架构-commit阶段
+# 目录
 
-- [beforeMutation](./4-架构-commit阶段/beforeMutation.md)
 
-- [layout](./4-架构-commit阶段/layout.md)
+- [beforeMutation](./beforeMutation.md)
 
-- [mutation](./4-架构-commit阶段/mutation.md)
+- [layout](./layout.md)
 
-- [prepare](./4-架构-commit阶段/prepare.md)
+- [mutation](./mutation.md)
+
+- [prepare](./prepare.md)
 

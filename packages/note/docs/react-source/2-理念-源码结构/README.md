@@ -1,16 +1,17 @@
-## 2-理念-源码结构
+# 目录
 
-- [file](./2-理念-源码结构/file.md)
 
-- [idea](./2-理念-源码结构/idea.md)
+- [file](./file.md)
 
-- [jsx](./2-理念-源码结构/jsx.md)
+- [idea](./idea.md)
 
-- [newConstructure](./2-理念-源码结构/newConstructure.md)
+- [jsx](./jsx.md)
 
-- [oldConstructure](./2-理念-源码结构/oldConstructure.md)
+- [newConstructure](./newConstructure.md)
 
-- [source](./2-理念-源码结构/source.md)
+- [oldConstructure](./oldConstructure.md)
 
-- [summary](./2-理念-源码结构/summary.md)
+- [source](./source.md)
+
+- [summary](./summary.md)
 

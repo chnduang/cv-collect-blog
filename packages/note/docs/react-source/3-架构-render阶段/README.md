@@ -1,14 +1,15 @@
-## 3-架构-render阶段
+# 目录
 
-- [beginWork](./3-架构-render阶段/beginWork.md)
 
-- [completeWork](./3-架构-render阶段/completeWork.md)
+- [beginWork](./beginWork.md)
 
-- [doubleBuffer](./3-架构-render阶段/doubleBuffer.md)
+- [completeWork](./completeWork.md)
 
-- [fiber-mental](./3-架构-render阶段/fiber-mental.md)
+- [doubleBuffer](./doubleBuffer.md)
 
-- [fiber](./3-架构-render阶段/fiber.md)
+- [fiber-mental](./fiber-mental.md)
 
-- [reconciler](./3-架构-render阶段/reconciler.md)
+- [fiber](./fiber.md)
+
+- [reconciler](./reconciler.md)
 

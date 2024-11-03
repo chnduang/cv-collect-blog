@@ -1,16 +1,17 @@
-## 1-koa
+# 目录
 
-- [koa-mongo](./1-koa/koa-mongo.md)
 
-- [koa-mysql](./1-koa/koa-mysql.md)
+- [koa-mongo](./koa-mongo.md)
 
-- [koa-swagger](./1-koa/koa-swagger.md)
+- [koa-mysql](./koa-mysql.md)
 
-- [koa-webpack](./1-koa/koa-webpack.md)
+- [koa-swagger](./koa-swagger.md)
 
-- [koa2](./1-koa/koa2.md)
+- [koa-webpack](./koa-webpack.md)
 
-- [koa实践总结](./1-koa/koa实践总结.md)
+- [koa2](./koa2.md)
 
-- [搞懂koa2原理](./1-koa/搞懂koa2原理.md)
+- [koa实践总结](./koa实践总结.md)
+
+- [搞懂koa2原理](./搞懂koa2原理.md)
 
