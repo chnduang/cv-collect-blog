@@ -82,13 +82,25 @@ const base = "/";
 
 const nav = [
   { text: "React", link: "/react/" },
+  {
+    text: "源码解析",
+    link: "/react-source/",
+  },
   { text: "MDN", link: "/mdn/" },
   { text: "Node", link: "/node/" },
   { text: "JS进阶", link: "/advanced/" },
   { text: "算法", link: "/algorithm/" },
   { text: "工程化", link: "/deploy/" },
-  { text: "react源码解析", link: "/react-source/" },
-  { text: "Home", link: "https://link.aduang.cn" },
+  {
+    text: "链接",
+    ariaLabel: "链接",
+    items: [
+      {
+        text: "常用链接",
+        link: "/link/",
+      },
+    ],
+  },
 ];
 
 module.exports = {

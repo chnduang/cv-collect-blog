@@ -1,17 +1,13 @@
 # 目录
 
+- [1-idea](./1-idea.md)
 
-- [beginWork](./beginWork.md)
+- [2-oldConstructure](./2-oldConstructure.md)
 
-- [completeWork](./completeWork.md)
+- [3-newConstructure](./3-newConstructure.md)
 
-- [doubleBuffer](./doubleBuffer.md)
+- [4-fiber-mental](./4-fiber-mental.md)
 
-- [fiber-mental](./fiber-mental.md)
+- [5-fiber](./5-fiber.md)
 
-- [fiber](./fiber.md)
-
-- [react16架构](./react16架构.md)
-
-- [reconciler](./reconciler.md)
-
+- [6-doubleBuffer](./6-doubleBuffer.md)

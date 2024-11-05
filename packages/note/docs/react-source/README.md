@@ -1,107 +1,87 @@
 # 目录
 
+## 理念-react 理念
 
-## 理念-react理念
+- [1-idea](./1-理念-react理念/1-idea.md)
 
-- [beginWork](./1-理念-react理念/beginWork.md)
+- [2-oldConstructure](./1-理念-react理念/2-oldConstructure.md)
 
-- [completeWork](./1-理念-react理念/completeWork.md)
+- [3-newConstructure](./1-理念-react理念/3-newConstructure.md)
 
-- [doubleBuffer](./1-理念-react理念/doubleBuffer.md)
+- [4-fiber-mental](./1-理念-react理念/4-fiber-mental.md)
 
-- [fiber-mental](./1-理念-react理念/fiber-mental.md)
+- [5-fiber](./1-理念-react理念/5-fiber.md)
 
-- [fiber](./1-理念-react理念/fiber.md)
-
-- [react16架构](./1-理念-react理念/react16架构.md)
-
-- [reconciler](./1-理念-react理念/reconciler.md)
+- [6-doubleBuffer](./1-理念-react理念/6-doubleBuffer.md)
 
 ## 理念-源码结构
 
-- [file](./2-理念-源码结构/file.md)
+- [1-file](./2-理念-源码结构/1-file.md)
 
-- [idea](./2-理念-源码结构/idea.md)
+- [2-source](./2-理念-源码结构/2-source.md)
 
-- [jsx](./2-理念-源码结构/jsx.md)
+- [3-jsx](./2-理念-源码结构/3-jsx.md)
 
-- [newConstructure](./2-理念-源码结构/newConstructure.md)
+## 架构-render 阶段
 
-- [oldConstructure](./2-理念-源码结构/oldConstructure.md)
+- [1-reconciler](./3-架构-render阶段/1-reconciler.md)
 
-- [source](./2-理念-源码结构/source.md)
+- [2-beginWork](./3-架构-render阶段/2-beginWork.md)
 
-- [summary](./2-理念-源码结构/summary.md)
+- [3-completeWork](./3-架构-render阶段/3-completeWork.md)
 
-## 架构-render阶段
+## 架构-commit 阶段
 
-- [beginWork](./3-架构-render阶段/beginWork.md)
+- [1-prepare](./4-架构-commit阶段/1-prepare.md)
 
-- [completeWork](./3-架构-render阶段/completeWork.md)
+- [2-beforeMutation](./4-架构-commit阶段/2-beforeMutation.md)
 
-- [doubleBuffer](./3-架构-render阶段/doubleBuffer.md)
+- [3-mutation](./4-架构-commit阶段/3-mutation.md)
 
-- [fiber-mental](./3-架构-render阶段/fiber-mental.md)
-
-- [fiber](./3-架构-render阶段/fiber.md)
-
-- [reconciler](./3-架构-render阶段/reconciler.md)
-
-## 架构-commit阶段
-
-- [beforeMutation](./4-架构-commit阶段/beforeMutation.md)
-
-- [layout](./4-架构-commit阶段/layout.md)
-
-- [mutation](./4-架构-commit阶段/mutation.md)
-
-- [prepare](./4-架构-commit阶段/prepare.md)
+- [4-layout](./4-架构-commit阶段/4-layout.md)
 
 ## 实现-diff
 
-- [multi](./5-实现-diff/multi.md)
+- [1-prepare](./5-实现-diff/1-prepare.md)
 
-- [one](./5-实现-diff/one.md)
+- [2-one](./5-实现-diff/2-one.md)
 
-- [prepare](./5-实现-diff/prepare.md)
+- [3-multi](./5-实现-diff/3-multi.md)
 
 ## 实现-状态更新
 
-- [mental](./6-实现-状态更新/mental.md)
+- [1-prepare](./6-实现-状态更新/1-prepare.md)
 
-- [prepare](./6-实现-状态更新/prepare.md)
+- [2-mental](./6-实现-状态更新/2-mental.md)
 
-- [priority](./6-实现-状态更新/priority.md)
+- [3-update](./6-实现-状态更新/3-update.md)
 
-- [reactdom](./6-实现-状态更新/reactdom.md)
+- [4-priority](./6-实现-状态更新/4-priority.md)
 
-- [setstate](./6-实现-状态更新/setstate.md)
+- [5-reactdom](./6-实现-状态更新/5-reactdom.md)
 
-- [update](./6-实现-状态更新/update.md)
+- [6-setstate](./6-实现-状态更新/6-setstate.md)
 
 ## 实现-hooks
 
-- [create](./7-实现-hooks/create.md)
+- [1-prepare](./7-实现-hooks/1-prepare.md)
 
-- [prepare](./7-实现-hooks/prepare.md)
+- [2-create](./7-实现-hooks/2-create.md)
 
-- [structure](./7-实现-hooks/structure.md)
+- [3-structure](./7-实现-hooks/3-structure.md)
 
-- [useeffect](./7-实现-hooks/useeffect.md)
+- [4-usestate](./7-实现-hooks/4-usestate.md)
 
-- [usememo](./7-实现-hooks/usememo.md)
+- [5-useeffect](./7-实现-hooks/5-useeffect.md)
 
-- [useref](./7-实现-hooks/useref.md)
+- [6-useref](./7-实现-hooks/6-useref.md)
 
-- [usestate](./7-实现-hooks/usestate.md)
+- [7-usememo](./7-实现-hooks/7-usememo.md)
 
 ## 实现-concurrent
 
-- [disrupt](./8-实现-concurrent/disrupt.md)
+- [1-prepare](./8-实现-concurrent/1-prepare.md)
 
-- [lane](./8-实现-concurrent/lane.md)
+- [2-scheduler](./8-实现-concurrent/2-scheduler.md)
 
-- [prepare](./8-实现-concurrent/prepare.md)
-
-- [scheduler](./8-实现-concurrent/scheduler.md)
-
+- [3-lane](./8-实现-concurrent/3-lane.md)

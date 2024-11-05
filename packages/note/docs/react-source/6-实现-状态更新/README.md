@@ -1,15 +1,15 @@
 # 目录
 
 
-- [mental](./mental.md)
+- [1-prepare](./1-prepare.md)
 
-- [prepare](./prepare.md)
+- [2-mental](./2-mental.md)
 
-- [priority](./priority.md)
+- [3-update](./3-update.md)
 
-- [reactdom](./reactdom.md)
+- [4-priority](./4-priority.md)
 
-- [setstate](./setstate.md)
+- [5-reactdom](./5-reactdom.md)
 
-- [update](./update.md)
+- [6-setstate](./6-setstate.md)
 
