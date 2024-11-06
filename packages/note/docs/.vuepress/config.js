@@ -81,22 +81,48 @@ const base = "/";
 // ];
 
 const nav = [
-  { text: "链接", link: "/link/" },
+  { text: "导航", link: "/link/" },
   { text: "React", link: "/react/" },
   { text: "MDN", link: "/mdn/" },
   { text: "Node", link: "/node/" },
-  { text: "算法", link: "/algorithm/" },
-  { text: "工程化", link: "/deploy/" },
   {
-    text: "扩展",
+    text: "开发进阶",
     items: [
       {
-        text: "前端",
+        text: "工程化",
         items: [
           {
-            text: "Vue",
-            link: "/vue/",
+            text: "工程化",
+            link: "/engineering/",
           },
+        ],
+      },
+      {
+        text: "部署",
+        items: [
+          {
+            text: "部署",
+            link: "/deploy/",
+          },
+        ],
+      },
+      {
+        text: "算法",
+        items: [
+          {
+            text: "算法",
+            link: "/algorithm/",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    text: "前端开发",
+    items: [
+      {
+        text: "H5",
+        items: [
           {
             text: "CSS",
             link: "/css/",
@@ -104,11 +130,11 @@ const nav = [
         ],
       },
       {
-        text: "后端",
+        text: "框架",
         items: [
           {
-            text: "python",
-            link: "/skill/",
+            text: "Vue",
+            link: "/vue/",
           },
         ],
       },
@@ -116,8 +142,31 @@ const nav = [
         text: "随笔",
         items: [
           {
-            text: "面试",
+            text: "面试题",
             link: "/face/",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    text: "开发技能",
+    items: [
+      {
+        text: "数据库",
+        items: [
+          {
+            text: "数据库",
+            link: "/database/",
+          },
+        ],
+      },
+      {
+        text: "后端",
+        items: [
+          {
+            text: "后端",
+            link: "/skill/",
           },
         ],
       },
@@ -130,6 +179,11 @@ const nav = [
       {
         text: "前端归纳",
         link: "https://copy.aduang.cn/",
+        target: "_blank",
+      },
+      {
+        text: "Github",
+        link: "https://github.com/chnduang/cv-collect-blog.git",
         target: "_blank",
       },
     ],
