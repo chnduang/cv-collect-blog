@@ -60,24 +60,6 @@ vh: 屏幕高度的1%
 
 ```
 
-#### tcp三次握手和四次挥手
-
-+ 先建立连接
-  + 确保双方都有收发消息的能力
-+ 再传输内容
-  + 发请求
-+ 网络连接协议是tcp, 传输协议是http协议
-
-+ 三次握手的建立
-  + client发包，server接收 ；server: 有client的消息
-  + server发包，client接收；client: server 具备接收消息的能力
-  + client发包，server接收，server: 等待client发送
-
-+ 四次挥手 断开
-  + client发包
-
-
-
 #### for in 和for of
 
 + 适用于不同的数据类型
@@ -107,39 +89,6 @@ vh: 屏幕高度的1%
 + 函数参数不能重名
 + 创建eval作用域 （单独的作用域）
   + eval(``)
-
-#### http跨域请求时为什么发送options请求
-
-+ 跨域请求之前的预检查
-+ 浏览器执行发起的
-
-+ 跨域请求
-  + 浏览器的同源策略
-  + 限制于ā ja x请求，不能跨域请求server
-  + 不会限制 img  link iframe script 加载第三方的资源
-
-+ JSONP
-
-  ```html
-  a
-  <script>
-  	window.onSuccess=function(data){
-      
-    }
-  </script>
-  <script scr=''></script>
-  
-  b
-  "onSucesss({data:{}})"
-  ```
-
-+ CORS
-
-  ```
-  setHeader
-  ```
-
-
 
 #### offsetHeight scrollHeight clientHeight
 
@@ -393,39 +342,6 @@ vh: 屏幕高度的1%
 + cookie
   + 主域名相同
   + 设置cookie domain 共享cookie
-
-#### HTTP协议和UDP协议有什么区别
-
-+ http 协议在应用层
-+ TCP UDP 在传输层
-  + tcp
-    + 稳定传输
-  + UDP
-  + 无连接，无断开
-  + 不稳定传输，效率高
-  + 视频会议，语音通话
-
-#### http 协议1.0  1.1  2.0有什么区别
-
-+ 1.1
-
-+ 缓存策略 cache-control
-+ 支持长连接 connection: keep-alive
-+ 断点续传
-+ 支持PUT DELETE
-
-
-
-+ 2.0
-+ 可压缩header，减少体积
-+ 多路复用
-+ 服务端推送
-
-
-
-#### HTTPS 中间人攻击 如何预防
-
-+ 加密传输 http ssl
 
 
 

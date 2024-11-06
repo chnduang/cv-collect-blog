@@ -115,9 +115,9 @@ module.exports = {
   description: "前端相关知识归纳总结",
   base,
   host: "localhost",
-  port: 9207,
+  port: 9201,
   head: [
-    ["link", { rel: "icon", href: "/logo.png" }],
+    ["link", { rel: "icon", href: "/logo.webp" }],
     ["link", { rel: "manifest", href: "/manifest.json" }],
     [
       "meta",
