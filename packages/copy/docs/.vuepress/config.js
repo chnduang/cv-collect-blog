@@ -104,7 +104,7 @@ const nav = [
 ];
 
 module.exports = {
-  title: "note归纳",
+  title: "前端收集",
   description: "前端相关知识归纳总结",
   base,
   host: "localhost",

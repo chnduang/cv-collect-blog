@@ -1,6 +1,6 @@
 {
   "name": "blog",
-  "short_name": "qd-blog",
+  "short_name": "copy-blog",
   "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#fff",
