@@ -1,0 +1,8 @@
+{
+  "name": "blog",
+  "short_name": "copy-blog",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#fff",
+  "theme_color": "#1890ff"
+}
