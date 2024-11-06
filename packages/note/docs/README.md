@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /header.jpg
+heroImage: /header.webp
 heroText: note
 tagline: 总结和完善前端知识体系
 actionText: 快速上手 →

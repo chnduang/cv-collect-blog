@@ -142,8 +142,8 @@ const nav = [
         text: "随笔",
         items: [
           {
-            text: "面试题",
-            link: "/face/",
+            text: "QA",
+            link: "/qa/",
           },
         ],
       },
@@ -197,7 +197,7 @@ module.exports = {
   host: "localhost",
   port: 9200,
   head: [
-    ["link", { rel: "icon", href: "/logo.png" }],
+    ["link", { rel: "icon", href: "/logo.webp" }],
     ["link", { rel: "manifest", href: "/manifest.json" }],
     [
       "meta",
