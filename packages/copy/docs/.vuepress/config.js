@@ -91,13 +91,20 @@ const nav = [
   { text: "JS进阶", link: "/advanced/" },
   { text: "算法", link: "/algorithm/" },
   { text: "工程化", link: "/deploy/" },
+  { text: "QA", link: "/qa/" },
   {
     text: "链接",
     ariaLabel: "链接",
     items: [
       {
-        text: "常用链接",
-        link: "/link/",
+        text: "note",
+        link: "https://note.aduang.cn/",
+        target: "_blank",
+      },
+      {
+        text: "Github",
+        link: "https://github.com/chnduang/cv-collect-blog.git",
+        target: "_blank",
       },
     ],
   },
