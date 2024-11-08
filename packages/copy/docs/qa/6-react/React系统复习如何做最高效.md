@@ -1,10 +1,12 @@
-# React系统复习如何做最高效
+# React 系统复习如何做最高效
+
+> [https://mp.weixin.qq.com/s/iGBZp1ckNHyDS1zJeiYn0Q](https://mp.weixin.qq.com/s/iGBZp1ckNHyDS1zJeiYn0Q)
 
 ## 一 前言
 
-哈喽，大家好，我是 alien ，8月24号，我作为分享嘉宾，线上参与了一场 《React 系统复习如何做最高效》 的技术分享，接下来我把直播的内容汇总分享给大家。在分享的过程中，也枚举了一些思考题和一些比较热门的面试题目，一同奉上。
+哈喽，大家好，我是 alien ，8 月 24 号，我作为分享嘉宾，线上参与了一场 《React 系统复习如何做最高效》 的技术分享，接下来我把直播的内容汇总分享给大家。在分享的过程中，也枚举了一些思考题和一些比较热门的面试题目，一同奉上。
 
-这里非常感谢掘金平台提供一次分享技术的机会，也非常感谢掘友们的热心捧场，整体下来还算是成功的，可能刚开始比较紧张，因为毕竟是第一次直播，人生的第一次直播献给了掘金😂，后来渐渐地找回了状态。这里保存了直播过程中的一些截图，整体下来掘友们还是蛮给力的，也参与互动，提了很多问题。
+这里非常感谢掘金平台提供一次分享技术的机会，也非常感谢掘友们的热心捧场，整体下来还算是成功的，可能刚开始比较紧张，因为毕竟是第一次直播，人生的第一次直播献给了掘金 😂，后来渐渐地找回了状态。这里保存了直播过程中的一些截图，整体下来掘友们还是蛮给力的，也参与互动，提了很多问题。
 
 直播场景：
 
@@ -25,7 +27,7 @@
 
 上述的模块进行细化，总结的内容如下：
 
-**React基础模块：**
+**React 基础模块：**
 
 - 操作 `jsx` 。
 - 掌握 class 和 function Component。
@@ -35,21 +37,21 @@
 - `Ref` 是什么，能做些什么？
 - `css in React`。
 
-**React优化手段**
+**React 优化手段**
 
 - 渲染控制。
 - 渲染调优。
 - 处理海量数据。
 - 细节处理。
 
-**React生态**
+**React 生态**
 
 - React-Router。
 - React-Redux。
 - React-Mobx。
-- 项目工程 umi | dva等。
+- 项目工程 umi | dva 等。
 
-**React设计模式**
+**React 设计模式**
 
 - 组合模式。
 - render props 模式。
@@ -57,7 +59,7 @@
 - 提供者模式。
 - 自定义 hooks 模式。
 
-**React核心原理**
+**React 核心原理**
 
 - 事件原理。
 - 调和原理。
@@ -65,7 +67,7 @@
 - hooks 原理。
 - diff 流程等等。
 
-**React实战**
+**React 实战**
 
 - 实现表单系统。
 - 实现状态管理工具。
@@ -80,7 +82,7 @@
 
 分享的内容细化成每一个我们需要掌握的功能点，以问题的形式切入，我们可以尝试一下？
 
-### 1 React基础模块
+### 1 React 基础模块
 
 #### 基础模块 jsx
 
@@ -148,7 +150,7 @@ state 中总结的知识点：
 - ② state 批量更新的规则，为什么会被打破？
 - ③ setState 是同步还是异步的？
 - ④ 类组件的 `setState` 和函数组件的 `useState` 有什么共性和区别？
-- ⑤ 函数组件的状态管理方法 useState + useRef ?  useState 负责更新，useRef 负责保存状态。
+- ⑤ 函数组件的状态管理方法 useState + useRef ? useState 负责更新，useRef 负责保存状态。
 - ⑥ state 打印问题：
 
 ```
@@ -201,7 +203,7 @@ component 模块包含的知识点：
 ref 知识点总结：
 
 - ① Ref 对象，以及两种 ref 对象创建方法。useRef 和 createRef
-- ② Ref 有什么作用？1 获取组件实例，DOM元素 ；2 组件通信 ；3 保存状态；
+- ② Ref 有什么作用？1 获取组件实例，DOM 元素 ；2 组件通信 ；3 保存状态；
 - ③ Ref 原理 ？`commitAttachRef` 和 `commitDetachRef`。
 - ④ Ref 获取的三种方式？function ；Ref 对象 ；String ；
 - ⑤ 如何跨层级传递 ref ?
@@ -244,15 +246,15 @@ React 生态总结：react-router，react-redux ，react-mobx umi dva 等。
 - ⑦ Mobx 原理，收集依赖，触发更新。
 - ⑧ React Redux 和 Redux 使用。
 - ⑨ Redux 设计模式 ｜ 中间件原理。
-- ⑩ React Redux  原理？
+- ⑩ React Redux 原理？
 - ⑪ react redux 衍生：dva React-saga 等
-- ⑫ React Redux 中 connect 原理 （这里推荐大家看一下源码，学习一下 hooks使用）。
+- ⑫ React Redux 中 connect 原理 （这里推荐大家看一下源码，学习一下 hooks 使用）。
 
 ### 4 React 设计模式
 
 React 设计模式总结：
 
-- ① React 几种设计模式总结。组合模式，render props模式，提供者模式， hoc 模式，自定义hooks 模式。
+- ① React 几种设计模式总结。组合模式，render props 模式，提供者模式， hoc 模式，自定义 hooks 模式。
 - ② 新老版本 context 用法特点。
 - ③ React context 特点。逐层传递，发布订阅。
 - ④ 新版本 context 消费者几种方式。contextType ，useContext ，consumer
@@ -285,7 +287,7 @@ React 设计模式总结：
 ```
 function ConsumerDemo(){
      const { color,background } = React.useContext(ThemeContext)
-    return <div style={{ color,background } } >消费者</div> 
+    return <div style={{ color,background } } >消费者</div>
 }
 const Son = React.memo(()=> <ConsumerDemo />) // 子组件
 
@@ -301,7 +303,7 @@ export default function ProviderDemo(){
 }
 ```
 
-**render props模式**
+**render props 模式**
 
 ```
 const Index = ()=>{
@@ -312,7 +314,7 @@ const Index = ()=>{
 }
 ```
 
-**hoc模式**
+**hoc 模式**
 
 ```
 @HOC1(styles)
@@ -323,7 +325,7 @@ class Index extends React.Componen{
 }
 ```
 
-**自定义hooks模式**
+**自定义 hooks 模式**
 
 ```
 function useXXX(){
@@ -339,26 +341,26 @@ function useXXX(){
 
 React 核心原理总结：
 
-**fiber原理**
+**fiber 原理**
 
-- ① 什么是fiber ? Fiber 架构解决了什么问题？
+- ① 什么是 fiber ? Fiber 架构解决了什么问题？
 - ② Fiber root 和 root fiber 有什么区别？
-- ③ 不同fiber 之间如何建立起关联的？
+- ③ 不同 fiber 之间如何建立起关联的？
 - ④ React 调和流程？
 - ⑤ 两大阶段 commit 和 render 都做了哪些事情？
 - ⑥ 什么是双缓冲树？有什么作用？
 - ⑦ Fiber 深度遍历流程？
-- ⑧ Fiber的调和能中断吗？如何中断？
+- ⑧ Fiber 的调和能中断吗？如何中断？
 
 **调度原理**
 
 - ① 异步调度原理？
 - ② React 为什么不用 settimeout ？
-- ③ 说一说React 的时间分片？
+- ③ 说一说 React 的时间分片？
 - ④ React 如何模拟 requestIdleCallback？
 - ⑤ 简述一下调度流程？
 
-**hooks原理**
+**hooks 原理**
 
 - ① React Hooks 为什么必须在函数组件内部执行？React 如何能够监听 React Hooks 在外部执行并抛出异常。
 - ② React Hooks 如何把状态保存起来？保存的信息存在了哪里？
@@ -373,16 +375,16 @@ React 核心原理总结：
 - ② 什么是事件合成 ？
 - ③ 如何实现的批量更新？
 - ④ 事件系统如何模拟冒泡和捕获阶段？
-- ⑤ 如何通过 dom 元素找到与之匹配的fiber？
+- ⑤ 如何通过 dom 元素找到与之匹配的 fiber？
 - ⑥ 为什么不能用 return false 来阻止事件的默认行为？
-- ⑦ 事件是绑定在真实的dom上吗？如何不是绑定在哪里？
+- ⑦ 事件是绑定在真实的 dom 上吗？如何不是绑定在哪里？
 - ⑧ V17 对事件系统有哪些改变
 
 ### 6 React 实践
 
 实践是检验真理的唯一标准，如果想要进阶 React ，在理论知识基础上，也需要去尝试敲代码。
 
-- 如过没有做过React 项目，尝试写一个 demo 。
+- 如过没有做过 React 项目，尝试写一个 demo 。
 - 尝试写一个公共组件。
 - 尝试写一个高阶组件。
 - 尝试写一个自定义 hooks。
@@ -392,7 +394,7 @@ React 核心原理总结：
 
 进阶 React 可以按照以下阶段去进阶。
 
-- 第一阶段：明白基础 api ,尝试写项目，多尝试一些复杂的逻辑场景。会用一些React生态。
+- 第一阶段：明白基础 api ,尝试写项目，多尝试一些复杂的逻辑场景。会用一些 React 生态。
 - 第二阶段：尝试封装一些基础组件，hoc，尝试使用一些设计模式。
 - 第三阶段：学习一些原理，可以尝试看一下核心源码。
 - 第四阶段：可以自己根据业务需求写一些库，考虑开源。
@@ -401,6 +403,6 @@ React 核心原理总结：
 
 以上就是本次直播分享 React 系统学习部分的内容，大家可以根据自己对 React 的掌握程度，进行查缺补漏，最后祝愿大家早日进阶 React 技术栈。
 
-## 《React进阶实践指南小册》
+## 《React 进阶实践指南小册》
 
-本次分享的知识点，在这本小册中都能找到答案。目前小册已经完结，是终点亦是起点,  小册内容将持续更新，随着 React 版本升级持续维护，并有持续更新章节～ 提前透露，小册接下来会补充：`React context` 原理部分，内容补充到第八章。奉上几个小册 7 折 优惠码 
+本次分享的知识点，在这本小册中都能找到答案。目前小册已经完结，是终点亦是起点, 小册内容将持续更新，随着 React 版本升级持续维护，并有持续更新章节～ 提前透露，小册接下来会补充：`React context` 原理部分，内容补充到第八章。奉上几个小册 7 折 优惠码

@@ -4,19 +4,19 @@
 
 ### 前言
 
-> 大家好，我叫TianTian，一个爱瞎折腾，爱算法的Acmer爱好者，梳理一些比较好的JS题目，复习完还是收获很大，分享给大家❤️
+> 大家好，我叫 TianTian，一个爱瞎折腾，爱算法的 Acmer 爱好者，梳理一些比较好的 JS 题目，复习完还是收获很大，分享给大家 ❤️
 
-题目主要来自看到过的易错题，还有经典的**44道 JavaScript Puzzlers!**，出自原文链接
+题目主要来自看到过的易错题，还有经典的**44 道 JavaScript Puzzlers!**，出自原文链接
 
-**stackoverflow** 这上面有很多Questions不错的，可以好好补一补基础
+**stackoverflow** 这上面有很多 Questions 不错的，可以好好补一补基础
 
-> JS易错题暂时很长一段时间就不更新啦，TypeScript都出来了，TS真香
+> JS 易错题暂时很长一段时间就不更新啦，TypeScript 都出来了，TS 真香
 >
-> ➡️给个小建议，可以先看完第一题，要是没有问题的话，后面的基本上也可以跳过
+> ➡️ 给个小建议，可以先看完第一题，要是没有问题的话，后面的基本上也可以跳过
 
-GitHub仓库点这里
+GitHub 仓库点这里
 
-开始吧👇
+开始吧 👇
 
 ### `.` VS `=` 操作符优先级
 
@@ -25,7 +25,7 @@ GitHub仓库点这里
         let b = a;
         a.x = a = {n: 2};
 
-        
+
         console.log(a.x)
         console.log(b.x)
 ```
@@ -36,18 +36,14 @@ GitHub仓库点这里
 
 **答案**
 
-
-
 undefined
 
 { n : 2}
 
-
-
 ### 你真的了解作用域吗
 
 ```
-  var a = 0,  
+  var a = 0,
             b = 0;
         function A(a) {
             A = function (b) {
@@ -65,7 +61,7 @@ undefined
 
 可以好好想一想，你会茅塞顿开的。
 
-### 类数组的length
+### 类数组的 length
 
 ```
   var obj = {
@@ -85,8 +81,6 @@ undefined
 ```
 答案：Object(4) [empty × 2, 1, 2, splice: ƒ, push: ƒ]
 ```
-
-
 
 ```
 解释就是第一次使用push,obj对象的push方法设置obj[2] = 1,obj.length++
@@ -127,7 +121,7 @@ Function b
         (function b(){
             // 'use strict'
             var b = 20
-            console.log(window.b) 
+            console.log(window.b)
             console.log(b)
         })()
 ```
@@ -171,7 +165,7 @@ var name = 'World!';
 })();
 ```
 
-在 JavaScript中， Fun 和 var 会被提升
+在 JavaScript 中， Fun 和 var 会被提升
 
 相当于
 
@@ -191,7 +185,7 @@ var name = 'World!';
 巩固一下：
 
 ```
- var str = 'World!';   
+ var str = 'World!';
     (function (name) {
     if (typeof name === 'undefined') {
         var name = 'Jack';
@@ -233,10 +227,10 @@ ary.filter(function(x) { return x === undefined;});
 
 做这个题目，你需要了解稀疏数组和密集数组
 
-- 译 JavaScript中的稀疏数组与密集数组
+- 译 JavaScript 中的稀疏数组与密集数组
 - Array/filter
 
-看过源码的同学应该知道，filter源码中，会去判断数组的这个索引值是不是数组的一个属性，有兴趣的同学可以看看我写的这篇关于数组的：[干货👍]从详细操作js数组到浅析v8中array.js
+看过源码的同学应该知道，filter 源码中，会去判断数组的这个索引值是不是数组的一个属性，有兴趣的同学可以看看我写的这篇关于数组的：[干货 👍]从详细操作 js 数组到浅析 v8 中 array.js
 
 ```
 0 in ary; => true
@@ -266,7 +260,7 @@ var six   = 0.6
 可以看看这些文章：
 
 - 探寻 JavaScript 精度问题以及解决方案
-- 从0.1+0.2=0.30000000000000004再看JS中的Number类型
+- 从 0.1+0.2=0.30000000000000004 再看 JS 中的 Number 类型
 
 ### Switch
 
@@ -293,7 +287,7 @@ showCase(new String('A'));
 
 ```
 switch 是严格比较, String 实例和 字符串不一样.
-答案自然是'Do not know' 
+答案自然是'Do not know'
 所以一般情况下,写switch语句，也建议写default
 ```
 
@@ -382,7 +376,7 @@ Array.isArray( Array.prototype )
 ### == 和 !优先级
 
 ```
-[]== ![] 
+[]== ![]
 ```
 
 结果是什么呢？
@@ -408,7 +402,7 @@ Array.isArray( Array.prototype )
 巩固：typeof (+"1")   // "number" 对非数值+—常被用来做类型转换相当于Number()
 ```
 
-### 一波骚操作  + - + + + - +
+### 一波骚操作 + - + + + - +
 
 ```
 1 + - + + + - + 1
@@ -418,7 +412,7 @@ Array.isArray( Array.prototype )
 
 ```
 答案：2
-解析：+-又是一元加和减操作符号，就是数学里的正负号。负负得正哈。 
+解析：+-又是一元加和减操作符号，就是数学里的正负号。负负得正哈。
 巩固： 一元运算符还有一个常用的用法就是将自执行函数的function从函数声明变成表达式。
       常用的有 + - ～ ！void
       + function () { }
@@ -479,7 +473,7 @@ Array.prototype.map = function(callback, thisArg) {
     };
 ```
 
-### JS是如何存储
+### JS 是如何存储
 
 ```
 var a = 111111111111111110000,
@@ -529,19 +523,19 @@ console.log('Value is ' + (val === 'smtg') ? 'Something' : 'Nothing');
 
 ```
 答案：Something
-解析：字符串连接比三元运算有更高的优先级 
-     所以原题等价于 'Value is true' ? 'Somthing' : 'Nonthing' 
+解析：字符串连接比三元运算有更高的优先级
+     所以原题等价于 'Value is true' ? 'Somthing' : 'Nonthing'
      而不是 'Value   is' + (true ? 'Something' : 'Nonthing')
 巩固：
-    1 || fn() && fn()   //1  
-    1 || 1 ? 2 : 3 ;    //2  
+    1 || fn() && fn()   //1
+    1 || 1 ? 2 : 3 ;    //2
 ```
 
 ### 原型
 
 ```
 var a = {}, b = Object.prototype;
-[a.prototype === b, Object.getPrototypeOf(a) === b] 
+[a.prototype === b, Object.getPrototypeOf(a) === b]
 ```
 
 执行结果是多少呢
@@ -552,12 +546,12 @@ var a = {}, b = Object.prototype;
      a的__poroto__ 指向的是Object.prototype，也就是Object.getPrototypeOf(a)。a的原型对象是b
 ```
 
-### 原型II
+### 原型 II
 
 ```
 function f() {}
 var a = f.prototype, b = Object.getPrototypeOf(f);
-a === b         
+a === b
 ```
 
 这段代码的执行结果？
@@ -574,7 +568,7 @@ b是实例f的原型对象 ： ƒ () { [native code] }
 function foo() { }
 var oldName = foo.name;
 foo.name = "bar";
-[oldName, foo.name]     
+[oldName, foo.name]
 ```
 
 代码执行结果是什么？
@@ -599,7 +593,7 @@ foo.name = "bar";
 答案：Error
 解析：Math.pow (x , y)  x 的 y 次幂的值
      reduce（fn,total）
-     fn (total, currentValue, currentIndex, arr) 
+     fn (total, currentValue, currentIndex, arr)
          如果一个函数不传初始值，数组第一个组默认为初始值.
          [3,2,1].reduce(Math.pow)
          Math.pow(3,2) //9
@@ -623,9 +617,9 @@ foo.name = "bar";
 ```
 答案："1 NaN 3"
 解析：replace() 回调函数的四个参数:
-      1、匹配项  
-      2、与模式中的子表达式匹配的字符串  
-      3、出现的位置  
+      1、匹配项
+      2、与模式中的子表达式匹配的字符串
+      3、出现的位置
       4、stringObject 本身 。
 如果没有与子表达式匹配的项，第二参数为出现的位置.所以第一个参数是匹配项，第二个参数是位置
  parseInt('1', 0)
@@ -633,7 +627,7 @@ foo.name = "bar";
  parseInt('3', 4)
 ```
 
-### eval用法
+### eval 用法
 
 ```
 function f() {}
@@ -641,7 +635,7 @@ var parent = Object.getPrototypeOf(f);
 f.name // ?
 parent.name // ?
 typeof eval(f.name) // ?
-typeof eval(parent.name) //  ?  
+typeof eval(parent.name) //  ?
 ```
 
 这段代码的执行结果？
@@ -654,7 +648,7 @@ typeof eval(parent.name) //  ?
      eval(parent.name) 为undefined, "undefined"
 ```
 
-### new  Date()
+### new Date()
 
 ```
 var a = new Date("2014-03-19"),
@@ -670,13 +664,13 @@ b = new Date(2014, 03, 19);
       Wed Mar 19 2014 08:00:00 GMT+0800 (CST)
       b = new Date(2014, 03, 19);       //参数要按照索引来
       Sat Apr 19 2014 00:00:00 GMT+0800 (CST)
-      月是从0索引，日期是从1 
+      月是从0索引，日期是从1
       getDay()是获取星期几
       getMonth()是获取月份所以都不同
 巩固： [a.getDate() === b.getDate()] //true
 ```
 
-### new  Date() II
+### new Date() II
 
 ```
 var a = Date(0);
@@ -696,7 +690,7 @@ b是对象     b === c // 引用类型，比的是引用地址
 c也是对象   a === c // 数据类型都不同，肯定是false
 ```
 
-### new  Date() III
+### new Date() III
 
 ```
 var a = new Date("epoch")
@@ -707,7 +701,7 @@ var a = new Date("epoch")
 ```
 答案：Invalid Date {}
 解析：您得到“无效日期”，这是一个实际的日期对象（一个日期的日期为true）。但无效。这是因为时间内部保持为一个数字，在这种情况下，它是NA。
-      在chrome上是undefined 
+      在chrome上是undefined
       正确的是格式是var d = new Date(year, month, day, hours, minutes, seconds, milliseconds);
 ```
 
@@ -728,17 +722,17 @@ a === b
 巩固：function fn () {
          var a = 1;
       }
-      console.log(fn.length) 
+      console.log(fn.length)
       //0 fn和new Function()一样
 ```
 
-> 要是看过往期的这篇文章[诚意满满✍]带你填一些JS容易出错的坑 就可以给我点个赞👍关注一下啦，下面的内容都是这篇文章的内容。
+> 要是看过往期的这篇文章[诚意满满 ✍]带你填一些 JS 容易出错的坑 就可以给我点个赞 👍 关注一下啦，下面的内容都是这篇文章的内容。
 
 ### [1,2,5,10].sort()
 
 不写回调函数的话，是按照什么排序呢？
 
-JavaScript默认使用字典序(alphanumeric)来排序。因此结果是[1,10,2,5]
+JavaScript 默认使用字典序(alphanumeric)来排序。因此结果是[1,10,2,5]
 
 正确排序的话，应该[1,2,5,10].sort( (a,b) => a-b )
 
@@ -746,13 +740,13 @@ JavaScript默认使用字典序(alphanumeric)来排序。因此结果是[1,10,2,
 
 你认为输出是什么？
 
-上面的表达式相当于'b'+'a'+ (+'a')+'a'，因为（+'a'）是NaN，所以：
+上面的表达式相当于'b'+'a'+ (+'a')+'a'，因为（+'a'）是 NaN，所以：
 
 'b'+'a'+ (+'a')+'a' = 'b'+'a'+ "NaN"+'a'='baNaNa'
 
 ### 闭包
 
-这是一个经典JavaScript面试题
+这是一个经典 JavaScript 面试题
 
 ```
   let res = new Array()
@@ -761,21 +755,21 @@ JavaScript默认使用字典序(alphanumeric)来排序。因此结果是[1,10,2,
                 return console.log(i)
             })
         }
-        res[0]() 
+        res[0]()
         res[1]()
         res[2]()
 ```
 
-期望输出的是0,1,2,实际上却不会。原因就是涉及**作用域**，怎么解决呢？
+期望输出的是 0,1,2,实际上却不会。原因就是涉及**作用域**，怎么解决呢？
 
-- [x] 使用let代替var，形成块级作用域
-- [x] 使用bind函数。
+- [x] 使用 let 代替 var，形成块级作用域
+- [x] 使用 bind 函数。
 
 ```
 res.push(console.log.bind(null, i))
 ```
 
-解法还有其他的，比如使用IIFE，形成私有作用域等等做法。
+解法还有其他的，比如使用 IIFE，形成私有作用域等等做法。
 
 ### 又一经典闭包问题
 
@@ -839,7 +833,7 @@ fn.valueOf = function() {
 console.log(fn + 10); // 输出结果是多少？
 ```
 
-**说到底JS类型转换的好好补一补了**
+**说到底 JS 类型转换的好好补一补了**
 
 ### 你真的理解操作符吗
 
@@ -853,19 +847,19 @@ console.log(fn + 10); // 输出结果是多少？
 
 选一个吧，比较操作符，赋值运算符优先级哪个更高呢？
 
-### 0.1+0.2  !== 0.3  ?
+### 0.1+0.2 !== 0.3 ?
 
 面试的时候，问你这个问题，要是回答错误的话，估计面试官对基础很是怀疑！！！
 
-问你这个题目的时候，你可以牵扯出很多问题，比如JS如何存储小数的呢？比如聊一聊二进制，比如实际开发中，遇到精度的问题，你是怎么解决的，你有什么好办法。
+问你这个题目的时候，你可以牵扯出很多问题，比如 JS 如何存储小数的呢？比如聊一聊二进制，比如实际开发中，遇到精度的问题，你是怎么解决的，你有什么好办法。
 
-聊完这个，你可以牵扯出最大安全数，比如JavaScript的最大安全整数是多少，超出这个范围的话，怎么解决精度问题呢？
+聊完这个，你可以牵扯出最大安全数，比如 JavaScript 的最大安全整数是多少，超出这个范围的话，怎么解决精度问题呢？
 
-ES规范中新提出的BigInt解决了什么问题呢，你又发现了BigInt中哪些坑呢？
+ES 规范中新提出的 BigInt 解决了什么问题呢，你又发现了 BigInt 中哪些坑呢？
 
 如何解决精度问题呢？
 
-这里推荐Number-Precision库，不到1K的体积。
+这里推荐 Number-Precision 库，不到 1K 的体积。
 
 ### arguments
 
@@ -884,7 +878,7 @@ ES规范中新提出的BigInt解决了什么问题呢，你又发现了BigInt中
         console.log(bar(2, 2, 2))
 ```
 
-涉及到ES6语法，这题答案肯定都会做是22，但是呢，稍微改变一下题目，就比较坑了….
+涉及到 ES6 语法，这题答案肯定都会做是 22，但是呢，稍微改变一下题目，就比较坑了….
 
 ```
   function sidEffecting(ary) {
@@ -901,11 +895,11 @@ ES规范中新提出的BigInt解决了什么问题呢，你又发现了BigInt中
         console.log(bar(2, 2, 2))
 ```
 
-这个答案是多少呢？根据MDN上对argument有更加准确的定义，看argument
+这个答案是多少呢？根据 MDN 上对 argument 有更加准确的定义，看 argument
 
 > 当非严格模式中的函数**有**包含剩余参数、默认参数和解构赋值，那么`arguments`对象中的值**不会**跟踪参数的值（反之亦然）。
 
-找到这句话，bar函数存在默认参数，并且在非严格模式下，所以不会跟踪参数的值，自然结果就14
+找到这句话，bar 函数存在默认参数，并且在非严格模式下，所以不会跟踪参数的值，自然结果就 14
 
 **请读者细细体会**
 
@@ -916,9 +910,9 @@ ES规范中新提出的BigInt解决了什么问题呢，你又发现了BigInt中
         console.log(demo1.class)
 ```
 
-比较流氓，这个跟浏览器相关，class是保留字（现在的话，class是关键字），答案并不要紧，重要的是自己在取属性名称的时候尽量避免保留字. 如果使用的话请加引号 a['class']。
+比较流氓，这个跟浏览器相关，class 是保留字（现在的话，class 是关键字），答案并不要紧，重要的是自己在取属性名称的时候尽量避免保留字. 如果使用的话请加引号 a['class']。
 
-**保留字vs关键字**
+**保留字 vs 关键字**
 
 个人理解的话，关键字就是有特殊含义的，不用用作变量名。比如
 
@@ -932,27 +926,27 @@ let class = 123;
 let undefined = 123;
 ```
 
-这样子并不会报错，这个跟浏览器有点关系，这样子看来undefined不是关键字。所以为了保险起见，**建议大家在判断一个变量是不是未定义的话，尽量使用void 0 === undefined**很有可能undefined会被当作是变量来赋值
+这样子并不会报错，这个跟浏览器有点关系，这样子看来 undefined 不是关键字。所以为了保险起见，**建议大家在判断一个变量是不是未定义的话，尽量使用 void 0 === undefined**很有可能 undefined 会被当作是变量来赋值
 
-**void 0 值就是undefined**
+**void 0 值就是 undefined**
 
 ### ["1", "2", "3"].map(parseInt)
 
-这个应该是经常遇见的题了，搞明白很简单，map函数怎么使用，parseInt函数怎么使用
+这个应该是经常遇见的题了，搞明白很简单，map 函数怎么使用，parseInt 函数怎么使用
 
-关于Array数组的话，我之前写了一篇文章，从**源码角度解析大部分方法**
+关于 Array 数组的话，我之前写了一篇文章，从**源码角度解析大部分方法**
 
-点进去重温一遍：[干货👍]从详细操作js数组到浅析v8中array.js
+点进去重温一遍：[干货 👍]从详细操作 js 数组到浅析 v8 中 array.js
 
-map接受两个参数，一个callback，一个this，即调用函数时this指向，其中callback回调函数是三个参数，一个currentValue，index，array；
+map 接受两个参数，一个 callback，一个 this，即调用函数时 this 指向，其中 callback 回调函数是三个参数，一个 currentValue，index，array；
 
-parseInt接受两个参数：string,radix(基数)
+parseInt 接受两个参数：string,radix(基数)
 
-返回NaN有两种情况
+返回 NaN 有两种情况
 
 - `radix` 小于 `2` 或大于 `36` ，或
 - 第一个非空格字符不能转换为数字。
-- 当radix是0或者undefined时，又是特殊情况，具体异步MDN
+- 当 radix 是 0 或者 undefined 时，又是特殊情况，具体异步 MDN
 
 ```
 parseInt('1', 0);
@@ -968,12 +962,12 @@ parseInt('3', 2);
   Math.min() < Math.max() // false
 ```
 
-按照常规思路的话，应该是true，毕竟最小值应该小于最大值，但是实际情况是false
+按照常规思路的话，应该是 true，毕竟最小值应该小于最大值，但是实际情况是 false
 
 原因：
 
 - Math.min 的参数是 0 个或者多个。如果是多个参数很容易理解，返回参数中最小的。
-- 如果是0个参数，或者没有参数，则返回 **Infinity**。
+- 如果是 0 个参数，或者没有参数，则返回 **Infinity**。
 - 而 Math.max() 没有传递参数时返回的是 -Infinity。
 
 要是面试官问这个问题，额。。。。
@@ -990,9 +984,9 @@ parseInt('3', 2);
 // undefined
 ```
 
-答案是undefined，原因是什么呢？
+答案是 undefined，原因是什么呢？
 
-1. 第一步计算[].concat,结果是Array.prototype.concat
+1. 第一步计算[].concat,结果是 Array.prototype.concat
 
 2. 第二步执行一个逗号操作符，逗号操作符对它的每个操作对象求值（从左至右），然后返回最后一个操作对象的值。
 
@@ -1003,7 +997,7 @@ parseInt('3', 2);
 
 3. 第三步执行一个数组访问运算或属性访问运算
 
-所以上面[].concat[1,2,3] 等价于Array.prototype.concat[3]
+所以上面[].concat[1,2,3] 等价于 Array.prototype.concat[3]
 
 那么结果自然就是 `undefined`。
 
@@ -1011,7 +1005,7 @@ parseInt('3', 2);
 
 //2 or -1
 
-- indexOf方法会进行严格相等判断
+- indexOf 方法会进行严格相等判断
 - NaN !== NaN
 
 怎么办呢？
@@ -1042,7 +1036,7 @@ Number.isFinite(0) === isFinite('0')
 
 打印结果是什么，能不能具体说一说？
 
-> Number.isFinite()检测有穷性的值，唯一和全局isFinite()函数相比，这个方法不会强制将一个非数值的参数转换成数值，这就意味着，只有数值类型的值，且是有穷的（finite），才返回 `true`。
+> Number.isFinite()检测有穷性的值，唯一和全局 isFinite()函数相比，这个方法不会强制将一个非数值的参数转换成数值，这就意味着，只有数值类型的值，且是有穷的（finite），才返回 `true`。
 
 自然答案就是 false,true
 
@@ -1068,7 +1062,7 @@ new Foo().getName();
 new new Foo().getName();
 ```
 
-### push方法
+### push 方法
 
 ```
 let newList = [1,2,3].push(4)
@@ -1079,9 +1073,9 @@ console.log(newList.push(4))
 
 // Error
 
-原因在于Array.prototype.push()返回的是新数组的长度，所以呢4.push(5)自然Error
+原因在于 Array.prototype.push()返回的是新数组的长度，所以呢 4.push(5)自然 Error
 
-------
+---
 
 ### 自动分号插入
 
@@ -1108,9 +1102,9 @@ console.log(b) //underfind
 // 会在第10行加入一个`;`
 ```
 
-会在第10行自动加一个分号; 所以返回的就是undefined
+会在第 10 行自动加一个分号; 所以返回的就是 undefined
 
-------
+---
 
 ### let var
 
@@ -1125,9 +1119,9 @@ typeof a; // => ???
 typeof b; // => ???
 ```
 
-上面的let a = b = 0; 等价于 window.b  = 0, let a = b;
+上面的 let a = b = 0; 等价于 window.b = 0, let a = b;
 
-------
+---
 
 ### 眼力题
 
@@ -1143,9 +1137,9 @@ numbers; // => ???
 
 唯一需要注意的就是`for语句`后面带了`;`沙雕题
 
-加了`;`，会认为for执行完，所以指定的都是空语句，最后numbers为[5]
+加了`;`，会认为 for 执行完，所以指定的都是空语句，最后 numbers 为[5]
 
-------
+---
 
 ### 获取字符串中特定索引字符
 
@@ -1153,11 +1147,11 @@ numbers; // => ???
 console.log('Hello World'[4])
 ```
 
-使用的就是方括号表示法获取字符串特定索引的字符，值得注意的是，IE7低版本使用的是charAt()
+使用的就是方括号表示法获取字符串特定索引的字符，值得注意的是，IE7 低版本使用的是 charAt()
 
-所以这题输出o
+所以这题输出 o
 
-------
+---
 
 ### !==
 
@@ -1167,15 +1161,15 @@ console.log(!typeof name === 'string')
 console.log(!typeof name === 'object')
 ```
 
-typeof name 返回的是 ’string‘, 字符串’string‘是一个truthy值。因此！typeof name 返回一个布尔值false。所以
+typeof name 返回的是 ’string‘, 字符串’string‘是一个 truthy 值。因此！typeof name 返回一个布尔值 false。所以
 
 false === ’string'
 
-和 false === ’object‘返回false
+和 false === ’object‘返回 false
 
 (检测一个类型的值话，我们应该使用 !==而不是!typeof)
 
-------
+---
 
 ### forEach
 
@@ -1191,6 +1185,6 @@ nums.forEach(n => {
 console.log(firstEven);
 ```
 
-唯一需要注意的就是forEach源码是怎么写的，看过源码的都知道，forEach使用return是不能中止循环的，或者说每一次调用callback函数，终止的是当前的一次，而不是整个循环。
+唯一需要注意的就是 forEach 源码是怎么写的，看过源码的都知道，forEach 使用 return 是不能中止循环的，或者说每一次调用 callback 函数，终止的是当前的一次，而不是整个循环。
 
-结果自然就是6
+结果自然就是 6
