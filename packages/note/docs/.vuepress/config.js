@@ -1,68 +1,9 @@
 const { sidebar } = require("./siderbar");
 // const { sidebar } = require("vuepress-auto-sider-utils");
 
-// const getBaiduTongji = () => {
-//   return `
-//   var _hmt = _hmt || [];
-//   (function() {
-//     var hm = document.createElement("script");
-//     hm.src = "https://hm.baidu.com/hm.js?0088ce24040b03f2947322ab31d23414";
-//     var s = document.getElementsByTagName("script")[0];
-//     s.parentNode.insertBefore(hm, s);
-//   })();
-//   `;
-// };
-
-// const getBaiduSpa = () => {
-//   return `
-//   var _hmt = _hmt || [];
-//   _hmt.push(['_requirePlugin', 'UrlChangeTracker', {
-//     shouldTrackUrlChange: function (newPath, oldPath) {
-//       newPath = newPath.split('#')[0];
-//       oldPath = oldPath.split('#')[0];
-//       return newPath != oldPath;
-//     }}
-//   ]);
-//   `;
-// };
-
-// const baiduTongji = getBaiduTongji();
-// const baiduSpa = getBaiduSpa();
 const base = "/";
-// const base = '/note/';
-// {
-//   text: "JS进阶",
-//   link: "/js-advanced/",
-//   items: [
-//     {
-//       text: "js进阶",
-//       items: [
-//         { text: "《js进阶》", link: "/js-advanced/" },
-//         { text: "《设计模式》", link: "/design-mode/" },
-//       ],
-//     },
-//   ],
-// },
 
 // const nav = [
-//   { text: "React", link: "/react/" },
-//   { text: "QA", link: "/qa/" },
-//   {
-//     text: "JS进阶",
-//     link: "/js-advanced/",
-//   },
-//   {
-//     text: "JS设计模式",
-//     link: "/design-mode/",
-//   },
-//   { text: "Leetcode", link: "/leetcode/" },
-//   {
-//     text: "数据结构",
-//     link: "/algorithm/",
-//   },
-//   { text: "工程化", link: "/engineering/" },
-//   { text: "Node", link: "/node/" },
-//   { text: "React", link: "https://react.aduang.cn" },
 //   {
 //     text: "个人链接",
 //     ariaLabel: "个人链接",
